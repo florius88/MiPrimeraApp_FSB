@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">MiPrimeraApp_FSB</string>
+    <string name="app_name">Mi Primera App Flor</string>
+    <string name="opc_aniadirNota">Añadir Nota</string>
+    <string name="opc_mandarCorreo">Mandar Correo</string>
+    <string name="opc_aniadirAmigo">Añadir Amigo</string>
+    <string name="opc_aniadirCita">Añadir Cita</string>
+    <string name="opc_acercaDe">Acerca De</string>
 </resources>

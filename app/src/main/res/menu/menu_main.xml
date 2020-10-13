@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/opc_aniadirNota" android:id="@+id/menuMainItemAniadirNota"/>
+    <item android:title="@string/opc_mandarCorreo" android:id="@+id/menuMainItemMandarCorreo"/>
+    <item android:title="@string/opc_aniadirAmigo" android:id="@+id/menuMainItemAniadirAmigo"/>
+    <item android:title="@string/opc_aniadirCita" android:id="@+id/menuMainItemAniadirCita"/>
+    <item android:title="@string/opc_acercaDe" android:id="@+id/menuMainItemAcercaDe"/>
+</menu>
