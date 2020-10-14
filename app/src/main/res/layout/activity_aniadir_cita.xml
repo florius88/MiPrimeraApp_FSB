@@ -19,12 +19,12 @@
             android:layout_width="140dp"
             android:layout_height="25dp" android:id="@+id/txtAniadirCitaCita"
             android:textSize="18sp" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="4dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/editTextAniadirCitaCita"
             app:layout_constraintHorizontal_bias="0.202"/>
     <EditText
-            android:layout_width="305dp"
-            android:layout_height="32dp"
+            android:layout_width="302dp"
+            android:layout_height="44dp"
             android:inputType="textMultiLine"
             android:gravity="start|top"
             android:ems="10"

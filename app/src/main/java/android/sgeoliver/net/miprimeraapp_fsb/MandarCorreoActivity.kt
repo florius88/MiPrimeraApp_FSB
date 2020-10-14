@@ -17,9 +17,8 @@ class MandarCorreoActivity : AppCompatActivity() {
 
     private fun sendMail() {
         val sendIntent = Intent(Intent.ACTION_SENDTO)
-        sendIntent.data = Uri.parse("mailto:" + txtEmailMandarCorreoDestinatario.text.toString())
-        sendIntent.putExtra(Intent.EXTRA_EMAIL, txtEmailMandarCorreoDestinatario.text.toString())
-        //Si tengo el Intent.EXTRA_EMAIL anterior, no me coge los siguientes
+        sendIntent.data = Uri.parse("mailto:" )
+        sendIntent.putExtra(Intent.EXTRA_EMAIL, arrayOf(txtEmailMandarCorreoDestinatario.text.toString()))
         sendIntent.putExtra(Intent.EXTRA_SUBJECT, txtMandarCorreoAsunto.text.toString())
         sendIntent.putExtra(Intent.EXTRA_TEXT, txtMandarCorreoTexto.text.toString())
 

@@ -12,9 +12,15 @@ import kotlinx.android.synthetic.main.activity_aniadir_cita.*
 
 
 class AniadirCitaActivity : AppCompatActivity() {
+    private var cita: String = ""
+    private var descrip: String = ""
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_aniadir_cita)
+
+        this.cita = editTextAniadirCitaCita.text.toString()
+        this.descrip = editTextAniadirCitaDescripcion.text.toString()
 
         var dia: Int = 0
         var mes: Int = 0
@@ -45,5 +51,25 @@ class AniadirCitaActivity : AppCompatActivity() {
 
         startActivity(calIntent)
 
+    }
+
+    // Para salvar el estado por ejemplo es usando un Bundle en el ciclo de vida
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.run {
+            putString("CITA", cita)
+            putString("DESCRIPCION", descrip)
+        }
+        super.onSaveInstanceState(outState)
+    }
+
+    // Para recuperar el estado al volver al un estado de ciclo de vida de la Interfaz
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        // Recuperamos en un bundle estas variables o estados de la interfaz
+        super.onRestoreInstanceState(savedInstanceState)
+        savedInstanceState.run {
+            cita = getString("CITA").toString()
+            descrip = getString("DESCRIPCION").toString()
+
+        }
     }
 }

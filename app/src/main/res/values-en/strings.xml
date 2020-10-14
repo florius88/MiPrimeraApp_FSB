@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First App Flor</string>
+    <string name="opc_aniadirNota">Add Note</string>
+    <string name="opc_mandarCorreo">Send Mail</string>
+    <string name="opc_aniadirAmigo">Add Friend</string>
+    <string name="opc_aniadirCita">Add Date</string>
+    <string name="opc_acercaDe">About</string>
+    <string name="btn_aniadirNota">Add</string>
+    <string name="txt_miNombre">Flor Santos</string>
+    <string name="txt_destinatario">Addressee</string>
+    <string name="btn_mandarMail">Send</string>
+    <string name="txt_asunto">Subject</string>
+    <string name="txt_nombreContacto">Name</string>
+    <string name="txt_telfContacto">Phone</string>
+    <string name="btn_aniadir">Add</string>
+    <string name="txt_fecha">Date</string>
+    <string name="txt_cita">Date</string>
+    <string name="txt_descripcion">Description</string>
+</resources>

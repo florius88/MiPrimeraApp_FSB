@@ -33,31 +33,31 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.menuMainItemAniadirNota -> {
-                mensajeToast("Botón Añadir Nota")
+                //mensajeToast("Botón Añadir Nota")
                 abrirAniadirNota()
                 true
             }
 
             R.id.menuMainItemMandarCorreo -> {
-                mensajeToast("Botón Mandar Correo")
+                //mensajeToast("Botón Mandar Correo")
                 abrirSendMail()
                 true
             }
 
             R.id.menuMainItemAniadirAmigo -> {
-                mensajeToast("Botón Añadir Amigo")
+                //mensajeToast("Botón Añadir Amigo")
                 abrirAddAmigo()
                 true
             }
 
             R.id.menuMainItemAniadirCita -> {
-                mensajeToast("Botón Añadir Cita")
+                //mensajeToast("Botón Añadir Cita")
                 abrirAddCita()
                 true
             }
 
             R.id.menuMainItemAcercaDe -> {
-                mensajeToast("Botón Acerca De...")
+                //mensajeToast("Botón Acerca De...")
                 abrirAcercaDe()
                 true
             }
@@ -66,12 +66,12 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    /**
-     * Funcion que muestra un mensaje en pantalla. Toast
-     */
-    private fun mensajeToast(mensaje: String) {
-        Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show()
-    }
+//    /**
+//     * Funcion que muestra un mensaje en pantalla. Toast
+//     */
+//    private fun mensajeToast(mensaje: String) {
+//        Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show()
+//    }
 
     private fun abrirAniadirNota(){
         val intent = Intent(this,AniadirNotaActivity::class.java)
