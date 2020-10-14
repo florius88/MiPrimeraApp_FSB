@@ -5,4 +5,16 @@
     <string name="opc_aniadirAmigo">Añadir Amigo</string>
     <string name="opc_aniadirCita">Añadir Cita</string>
     <string name="opc_acercaDe">Acerca De</string>
+    <string name="btn_aniadirNota">Añadir</string>
+    <string name="txt_miNombre">Flor Santos</string>
+    <string name="txt_destinatario">Destinatario</string>
+    <string name="btn_mandarMail">Mandar</string>
+    <string name="txt_asunto">Asunto</string>
+    <string name="txt_nombreContacto">Nombre</string>
+    <string name="txt_telfContacto">Teléfono</string>
+    <string name="btn_aniadir">Añadir</string>
+    <string name="txt_fecha">Fecha</string>
+    <string name="txt_cita">Cita</string>
+    <string name="txt_descripcion">Descripción</string>
+
 </resources>
